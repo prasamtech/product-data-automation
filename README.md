@@ -35,9 +35,9 @@ An automated workflow was designed to:
 - Download supplier product data
 - Validate incoming information
 - Process only relevant products
-- Detect existing products
+- Identify existing, new, and discontinued products
 - Update pricing and availability
-- Disable discontinued products
+- Deactivate discontinued products
 - Insert newly introduced products
 - Maintain a synchronized product database
 
@@ -45,20 +45,52 @@ The solution significantly reduced manual processing and improved operational ef
 
 ---
 
-## Technologies
+## Technology Stack
 
-- n8n
-- PHP
-- MySQL
-- SQL
-- CSV Processing
-- FTP
-- Workflow Automation
+| Layer | Technology | Purpose |
+|--------|------------|---------|
+| Data Source | FTP, CSV | Supplier product import |
+| Automation | n8n | Workflow orchestration |
+| Processing | PHP | Business rules & data transformation |
+| Database | MySQL | Product catalog storage |
+| Logging | MySQL | Reporting & audit logs |
 
 ---
 
-## Repository Status
+## Architecture
 
-🚧 Documentation in progress.
+![Architecture](images/architecture.png)
 
-Additional architecture diagrams, workflow illustrations, screenshots, and technical explanations will be added over time.
+---
+
+## Business Impact
+
+This automation solution helps businesses:
+
+- Reduce manual product data processing
+- Synchronize supplier catalogs automatically
+- Eliminate repetitive database updates
+- Improve inventory accuracy
+- Reduce pricing inconsistencies
+- Automatically detect discontinued products
+- Scale onboarding of new suppliers
+- Centralize product catalog management
+
+---
+
+## Future Improvements
+
+- API-based supplier integrations
+- Multi-supplier processing
+- Automated notifications
+- Dashboard and monitoring
+- Data quality validation rules
+- API integrations with ERP and marketplace platforms
+
+---
+
+## Disclaimer
+
+This repository is a technical showcase inspired by real-world automation projects.
+
+All business names, supplier information, workflows, credentials, implementation details, and business logic have been anonymized or generalized to protect confidential client information.
