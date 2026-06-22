@@ -59,7 +59,7 @@ The solution significantly reduced manual processing and improved operational ef
 
 ## Architecture
 
-![Architecture](/architecture.png)
+![Architecture](architecture.png)
 
 ---
 
