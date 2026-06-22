@@ -59,7 +59,7 @@ The solution significantly reduced manual processing and improved operational ef
 
 ## Architecture
 
-![Architecture](images/product_data_automation.drawio)
+![Architecture](images/architecture.png)
 
 ---
 
